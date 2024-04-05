@@ -9,6 +9,48 @@ body {
     line-height: 1.5;
     background:#fff;
 }
+/* Hero style */
+.hero {
+    margin-bottom: 50px;
+}
+.hero .container {
+    background: url('images/hero-bg.png') no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    height: 550px;
+}
+.hero .hero-content {
+    width: 70%;
+  }
+  
+  .hero .hero-text {
+    width: 70%;
+    margin-bottom: 90px;
+  }
+  
+
+
+
+
+
+
+/* btn */
+.btn-primary {
+    background:#4891ff;
+    color: #fff;
+  }
+  
+  .btn-dark {
+    background: #111;
+    color: #fff;
+  }
+  
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+
+  
 a {
     text-decoration: none;
     color: black;
@@ -66,16 +108,24 @@ img {
 /* Buttons Login */
 .btnLogin {
     display: inline-block;
-    padding: 13px 20px;
-    background:lightcyan;
-    color: darkgray;
-    font-weight: 900px;
-    text-decoration: none;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.5s;
+  padding: 13px 20px;
+  background:#f4f4f6 ;
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
 }
 .btnLogin:hover{
     opacity: 0.9;
+}
+/* text  class */
+.text-xxl {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    margin: 40px 0 20px;
 }
